@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+void isEligible(int age);
+main()
+{
+  int age;
+  cout<<"enter your age";
+  cin>>age;
+  if(age>=18)
+  {
+    isEligible(age);
+  }
+}
+  void isEligible(int age)
+  {
+   cout<<"he is eligible"<<endl;
+  }

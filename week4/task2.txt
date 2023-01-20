@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+main()
+{
+ int marks;
+cout<<"enter marks:";
+cin>>marks;
+if(marks>50)
+cout<<"Pass";
+}

@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+void calculateBill(int numb, string day);
+main()
+{ 
+  int num;
+  string day;
+  cout<<"enter number";
+  cin>>num;
+  cout<<"enter day";
+  cin>>day;
+  if(day=="sunday")
+  {
+    calculateBill(int numb, string day); 
+    num
+  }
